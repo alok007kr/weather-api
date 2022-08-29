@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Weather-api || API</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+      <input type="search" id="city" placeholder="Enter the city">
+      <button class="search" id="search">Search</button>
+    </div>
+    <div class="text">
+      <h2>Weather in <span id="eCity">Delhi</span></h2>
+      <h1 id="temp">9.82°C</h1>
+      <div class="cloud">
+        <img src="images/cloud-clipart.png" />
+        <p id="weather">Broken Clouds</p>
+      </div>
+      <div class="details">
+        <p>Humidity: <span id="humid"> 66</span>%</p>
+        <span>Wind: <span id="speed"> 3.6<span>km/h</span>
+      </div>
+      <h2> Thanks For Using Weather App</h2>
+    </div>
+
+
+  </div>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
